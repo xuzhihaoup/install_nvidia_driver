@@ -8,6 +8,7 @@ xauth nlist $DISPLAY | sed -e 's/^..../ffff/' | xauth -f $XAUTH nmerge -
 docker run -it \
     --gpus all \
     --name isaac_sim_container \
+    --user root \
     -e DISPLAY=$DISPLAY \
     -e QT_X11_NO_MITSHM=1 \
     --volume /tmp/.X11-unix:/tmp/.X11-unix:rw \
