@@ -6,4 +6,5 @@ chmod +x install_nvidia_driver.sh
 ./install_nvidia_driver.sh
 ### 下载执行
 wget -qO- https://raw.githubusercontent.com/xuzhihaoup/install_nvidia_driver/main/install_nvidia_driver.sh | bash
+wget -qO- https://raw.githubusercontent.com/xuzhihaoup/install_nvidia_driver/main/start_docker_run_display.sh | bash
 
