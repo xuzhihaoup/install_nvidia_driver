@@ -11,6 +11,13 @@ dockerfile文件用于构建镜像
 chmod +x install_nvidia_driver.sh  
 ./install_nvidia_driver.sh
 ### 下载执行
-wget -qO- https://raw.githubusercontent.com/xuzhihaoup/install_nvidia_driver/main/install_nvidia_driver.sh | bash   
-wget -qO- https://raw.githubusercontent.com/xuzhihaoup/install_nvidia_driver/main/start_docker_run_display.sh | bash
+检查显卡驱动
+wget -qO- https://raw.githubusercontent.com/xuzhihaoup/install_nvidia_driver/main/install_nvidia_driver.sh  
+chmod +x install_nvidia_driver.sh  
+./install_nvidia_driver.sh  
+创建容器
+wget https://raw.githubusercontent.com/xuzhihaoup/install_nvidia_driver/main/start_docker_run_display.sh  
+chmod +x start_docker_run_display.sh  
+./start_docker_run_display.sh  
+
 
