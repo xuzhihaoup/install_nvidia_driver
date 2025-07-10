@@ -1,5 +1,5 @@
 # initialize_isaac_sim4.1.0
-dockerfile文件用于构建镜像
+dockerfile文件用于构建镜像  
 **镜像包环境配置信息：**
 - Isaac Sim 版本：4.1.0  
 - Python 版本：3.10  
