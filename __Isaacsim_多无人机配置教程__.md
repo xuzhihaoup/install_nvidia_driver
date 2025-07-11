@@ -113,9 +113,14 @@ export XDG_RUNTIME_DIR=/run/user/$(id -u)
 ## **相关提示**
  - pip指令安装isaacsim
 pip指令只支持Ubuntu22.04安装isaacsim且只有4以上版本支持
+
 pip install 'isaacsim[all,extscache]==4.1.0' --extra-index-url https://pypi.nvidia.com  
+
 Isaac Sim 需要 Python 3.10.才可访问 Python 下载页面 以获得合适的版本。
 在 Linux 上，GLIBC 2.34+ （manylinux_2_34_x86_64） 版本兼容性，pip 需要版本兼容性才能发现和安装 Python 软件包。使用命令检查 GLIBC 版本 `ldd --version.`
  - run指令下载显卡驱动
+
 wget https://developer.download.nvidia.com/compute/cuda/12.4.0/local_installers/cuda_12.4.0_550.54.14_linux.run
 sudo sh cuda_12.4.0_550.54.14_linux.run
+
+
