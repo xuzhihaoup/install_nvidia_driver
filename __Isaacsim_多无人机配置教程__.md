@@ -31,7 +31,10 @@ docker rm isaac_sim_container  ====删除容器
  - **pytorch**: 2.2.2+cu118
  - **rl**: 0.3.1  
 ## **实验环境**
- - Ubuntu 20.040.6 LTS  
+ - Ubuntu 20.040.6 LTS
+ - NVIDIA-SMI 550.54.14  
+ - Driver Version: 550.54.14  
+ - CUDA Version: 12.4    
 推荐配置网络代理-clash  
 ## **系统环境搭建**  
 nvidia-smi查看显卡信息--ubuntu-drivers devices看是否为recommended版本--不是请卸载安装 方式2重新安装  
