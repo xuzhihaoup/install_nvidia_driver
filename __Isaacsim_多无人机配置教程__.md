@@ -65,8 +65,8 @@ CUDA 版本：12.2
 **登录密码**：`xzh123456---syjs123456`（优先输入这个，前面是账号登录密码后面是仓库访问密码）  
 **pull指令**：`docker pull crpi-p4y4hs8uwp1hkhn1.cn-shanghai.personal.cr.aliyuncs.com/isaac_sim/isaac_sim_syjs:isaacsim_4.1.0_py310_ubuntu22.04_torch2.5.1_cuda122`  
 ----------如果提示权限不够，请将终端切换至root用户(`su root`)，或者将当前用户加入docker组(推荐去root)  
-**运行镜像**
----------------------创建容器---------------------  
+**运行镜像**  
+---------------------创建容器---------------------   
 ### 指令执行-----非root用户
 
     docker run -it --gpus all --name isaac_sim_container -v $(pwd):/workspace crpi-p4y4hs8uwp1hkhn1.cn-shanghai.personal.cr.aliyuncs.com/isaac_sim/isaac_sim_syjs:isaacsim_4.1.0_py310_ubuntu22.04_torch2.5.1_cuda122 bash
