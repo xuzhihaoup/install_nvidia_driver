@@ -29,8 +29,8 @@ docker rm isaac_sim_container  ====删除容器
  - **Isaac Lab**: 1.** * **
  - **python**: 3.10
  - **pytorch**: 2.2.2+cu118
- - **rl**: 0.3.1
-##**实验环境**
+ - **rl**: 0.3.1  
+## **实验环境**
  - Ubuntu 20.040.6 LTS
 推荐配置网络代理-clash
 ## **系统环境搭建**
