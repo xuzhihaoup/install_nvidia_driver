@@ -7,8 +7,9 @@ dockerfile文件用于构建镜像
 - 系统版本：Ubuntu 22.04  
 - Torch 版本：2.5.1  
 - CUDA 版本：12.2
-- Package                  Version  
------------------------- -----------  
+
+- Package                  Version  环境pip包版本  
+------------------------ -----------                     
 annotated-types          0.7.0  
 antlr4-python3-runtime   4.9.3  
 av                       15.0.0  
