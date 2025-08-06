@@ -57,6 +57,71 @@ source ~/.bashrc =====bashrc刷新
  - fsspec                   2025.5.1
  - gitdb                    4.0.12
  - GitPython                3.1.44
+ - hydra-core               1.3.2
+ - idna                     3.10
+ - imageio                  2.37.0
+ - imageio-ffmpeg           0.6.0
+ - importlib_metadata       8.7.0
+ - Jinja2                   3.1.6
+ - kiwisolver               1.4.8
+ - MarkupSafe               3.0.2
+ - matplotlib               3.10.3
+ - moviepy                  2.2.1
+ - mpmath                   1.3.0
+ - narwhals                 1.46.0
+ - networkx                 3.4.2
+ - numpy                    2.2.6
+ - nvidia-cublas-cu12       12.6.4.1
+ - nvidia-cuda-cupti-cu12   12.6.80
+ - nvidia-cuda-nvrtc-cu12   12.6.77
+ - nvidia-cuda-runtime-cu12 12.6.77
+ - nvidia-cudnn-cu12        9.5.1.17
+ - nvidia-cufft-cu12        11.3.0.4
+ - nvidia-cufile-cu12       1.11.1.6
+ - nvidia-curand-cu12       10.3.7.77
+ - nvidia-cusolver-cu12     11.7.1.2
+ - nvidia-cusparse-cu12     12.5.4.2
+ - nvidia-cusparselt-cu12   0.6.3
+ - nvidia-nccl-cu12         2.26.2
+ - nvidia-nvjitlink-cu12    12.6.85
+ - nvidia-nvtx-cu12         12.6.77
+ - omegaconf                2.3.0
+ - orjson                   3.10.18
+ - packaging                25.0
+ - pandas                   2.3.1
+ - pillow                   11.3.0
+ - pip                      25.1
+ - platformdirs             4.3.8
+ - plotly                   6.2.0
+ - proglog                  0.1.12
+ - protobuf                 6.31.1
+ - pydantic                 2.11.7
+ - pydantic_core            2.33.2
+ - pyparsing                3.2.3
+ - python-dateutil          2.9.0.post0
+ - python-dotenv            1.1.1
+ - pytz                     2025.2
+ - PyYAML                   6.0.2
+ - requests                 2.32.4
+ - sentry-sdk               2.32.0
+ - setuptools               78.1.1
+ - six                      1.17.0
+ - smmap                    5.0.2
+ - sympy                    1.14.0
+ - tensordict               0.9.0
+ - torch                    2.7.1
+ - torchrl                  0.3.1
+ - tqdm                     4.67.1
+ - triton                   3.3.1
+ - typing_extensions        4.14.1
+ - typing-inspection        0.4.1
+ - tzdata                   2025.2
+ - urllib3                  2.5.0
+ - wandb                    0.21.0
+ - wheel                    0.45.1
+ - zipp                     3.23.0
+
+
 推荐配置网络代理-clash  
 ## **系统环境搭建**  
 nvidia-smi查看显卡信息--ubuntu-drivers devices看是否为recommended版本--不是请卸载安装 方式2重新安装  
