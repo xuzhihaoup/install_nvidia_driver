@@ -38,8 +38,25 @@ source ~/.bashrc =====bashrc刷新
 ## **实验环境**
  - Ubuntu 20.040.6 LTS
  - NVIDIA-SMI 550.54.14  
- - Driver Version: 550.54.14  
- - CUDA Version: 12.4    
+ - Driver Version: 550.54.14    
+ - CUDA Version: 12.4  
+ - miniconda3  
+ - annotated-types          0.7.0  
+ - antlr4-python3-runtime   4.9.3  
+ - av                       15.0.0  
+ - certifi                  2025.7.9  
+ - charset-normalizer       3.4.2  
+ - click                    8.2.1  
+ - cloudpickle              3.1.1  
+ - contourpy                1.3.2  
+ - cycler                   0.12.1  
+ - decorator                5.2.1  
+ - einops                   0.8.1  
+ - filelock                 3.18.0  
+ - fonttools                4.58.5  
+ - fsspec                   2025.5.1
+ - gitdb                    4.0.12
+ - GitPython                3.1.44
 推荐配置网络代理-clash  
 ## **系统环境搭建**  
 nvidia-smi查看显卡信息--ubuntu-drivers devices看是否为recommended版本--不是请卸载安装 方式2重新安装  
