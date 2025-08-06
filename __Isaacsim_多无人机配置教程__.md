@@ -1,5 +1,16 @@
 ﻿# **Isaacsim_多无人机配置教程**
-**使用前先整体浏览一遍，不是本地物理机不用尝试Docker**
+**使用前先整体浏览一遍，不是本地物理机不用尝试Docker**  
+整体安装流程:  
+## Step1  
+  安装显卡驱动
+## Step2  
+  安装miniconda3  
+## Step3  
+  安装isaacsim  
+## Step4  
+  安装isaaclab  
+## Step5  
+  安装omnidrones  
 ## **常用文档链接**
 **OmniDrones 0.1.1 documentation**  
 https://omnidrones.readthedocs.io/en/latest/installation.html  
