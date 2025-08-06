@@ -1,5 +1,5 @@
 ﻿# **Isaacsim_多无人机配置教程**
-
+**使用前先整体浏览一遍，不是本地物理机不用尝试Docker**
 ## **常用文档链接**
 **OmniDrones 0.1.1 documentation**  
 https://omnidrones.readthedocs.io/en/latest/installation.html  
@@ -37,9 +37,9 @@ source ~/.bashrc =====bashrc刷新
  - **rl**: 0.3.1  
 ## **实验环境**
  - Ubuntu 20.040.6 LTS
- - NVIDIA-SMI 550.54.14  
- - Driver Version: 550.54.14    
- - CUDA Version: 12.4  
+ - NVIDIA-SMI 535.230.02  
+ - Driver Version: 535.230.02    
+ - CUDA Version: 12.2  
  - miniconda3  
  - annotated-types          0.7.0  
  - antlr4-python3-runtime   4.9.3  
