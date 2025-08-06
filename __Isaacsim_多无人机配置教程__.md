@@ -125,12 +125,12 @@ export XDG_RUNTIME_DIR=/run/user/$(id -u)
  - **原因3**-已解决  
  由于实验设计isaacsim、isaacLab和Omnidrones，但是Omnidrones是基于sim4.1.0实现(最后一版)，截至2025-7-13，sim已经更新至5.0.0，Lab也向后更新了9个版本，而且isaacsim更新完全不向后兼容，Omnidrones也停止更新了，导致这3个在最后运行时候各种版本不兼容报错，最后在GPT老师+咸鱼技术哥的帮助下一顿库库乱配置（此时已经折腾快10天，死马当活马医🐎，都准备换方案到AirGym）最后成功运行。是在sim自带的python.sh里面运行成功的。  
 #  代码提示  
-##  train  
+##   train  
     主要从Omnidrones/scripts/train.py 文件，开始阅读，作者所有文件都是通过yaml加载  
-###变量加载  
+### 变量加载  
 @hydra.main(version_base=None, config_path=".", config_name="train")  
 大部分yaml在omnidrones/cfg文件夹  
-###环境初始化  
+### 环境初始化  
 env_class = IsaacEnv.REGISTRY[cfg.task.name]#环境基类 注册表容器
 作者使用动态注册，注册环境
 IsaacEnv为环境母类，里面的各个子方法需要在子类内声明方法，各个子类在omnidrones/envs/single（单任务）  
