@@ -2,7 +2,7 @@
 **使用前先整体浏览一遍，不是本地物理机不用尝试Docker**  
 整体安装流程:  （咸鱼老哥代配置VX：**ldd99581430**）
 ## Step1  
-  安装显卡驱动
+  安装显卡驱动  
     通过网盘分享的文件：服务器备份  
 链接: https://pan.baidu.com/s/1yjR9cO0XZI-WB7cFjqCmqA?pwd=39wi 提取码: 39wi  
 里面有显卡驱动(rtx4090),以及服务器上整个envs环境omnidrones   
