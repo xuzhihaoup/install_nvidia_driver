@@ -135,7 +135,7 @@ env_class = IsaacEnv.REGISTRY[cfg.task.name]#环境基类 注册表容器
 作者使用动态注册，注册环境
 IsaacEnv为环境母类，里面的各个子方法需要在子类内声明方法，各个子类在omnidrones/envs/single（单任务）  
 这里以track.py为例，这里面主要有设置轨迹_compute_traj，计算奖励与设置终止条件_compute_reward_and_done，获取观测数据_compute_state_and_obs，环境初始化设置相关设置_pre_sim_step，重置环境_reset_idx，设置观测奖励动作空间_set_specs，设置环境物理世界_design_scene，__init__里面主要是相关参数  
-###强化算法实例化  
+### 强化算法实例化  
 policy = ALGOS[cfg.algo.name.lower()](  
             cfg.algo,#选择强化学习算法  
             env.observation_spec,#环境观察空间的数据规范格式  
